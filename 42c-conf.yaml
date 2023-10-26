@@ -1,0 +1,19 @@
+audit:
+  branches:
+    main:
+      discovery:
+        search:
+          - OASFiles/pixi.json
+
+    dev:
+      discovery:
+        search:
+          - OASFiles/*.json
+          - OASFiles/Discovery/*.*
+  prs:
+    main:
+      discovery:
+        search:
+          - OASFiles/pixi.json
+
+
